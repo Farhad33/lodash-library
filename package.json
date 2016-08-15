@@ -1,0 +1,23 @@
+{
+  "name": "lodash-library-",
+  "version": "1.0.0",
+  "description": "rewrite lodash library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Farhad33/lodash-library-.git"
+  },
+  "author": "Majid, Yaseen, Harman, Jrob",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Farhad33/lodash-library-/issues"
+  },
+  "homepage": "https://github.com/Farhad33/lodash-library-#readme",
+  "dependencies": {
+    "jasmine": "^2.4.1",
+    "lodash": "^4.15.0"
+  }
+}
