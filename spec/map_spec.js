@@ -33,4 +33,17 @@ describe('map', () => {
   it( 'returns an array with values square', () => {
     expect( map( { 'a': 4, 'b': 8 }, a => a * a)).toEqual( [16, 64] )
   })
+
+  it( 'it invokes iteratee with value, index, and array for array inputs', () => {
+    const test = (value, index, array) => `${value}-${index}-${array[index]}`
+
+    expect( map( [1,2,3], test )).toEqual( [ '1-0-1', '2-1-2', '3-2-3' ])
+  })
+
+  it( 'it invokes iteratee with value, key, and object for object inputs', () => {
+    const test = (value, key, object) => `${value}-${key}-${object[key]}`
+
+    expect( map( {a:1, b:2}, test )).toEqual( [ '1-a-1', '2-b-2' ])
+  })
+
 })
