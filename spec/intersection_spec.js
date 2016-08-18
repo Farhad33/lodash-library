@@ -6,6 +6,6 @@ describe('intersection', () => {
   })
 
   it ('returns the new array of intersecting values', () => {
-    expect ( intersection([2, 1], [2, 1], [1, 4])).toEqual([2])
+    expect ( intersection([2, 1], [2, 1], [1, 4])).toEqual([1])
   })
 })    
