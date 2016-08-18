@@ -27,6 +27,14 @@ describe('chunk', () => {
 
   it ('returns an empty array if the second argument is an empty array ', () => {
     expect ( chunk (['a', 'b', 'c', 'd'], [])).toEqual([])
+  })  
+
+  it ('returns an empty array if the second argument is an empty array ', () => {
+    expect ( chunk ({}, [])).toEqual([])
+  })  
+
+  it ('returns an empty array if the second argument is an empty array ', () => {
+    expect ( chunk ('majid', 2)).toEqual([['m', 'a'], ['j', 'i'], ['d']])
   })
 
 })
