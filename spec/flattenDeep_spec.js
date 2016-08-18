@@ -1,6 +1,6 @@
 import { flattenDeep } from '../lib/flattenDeep'
 
-fdescribe('flattenDeep', () => {
+describe('flattenDeep', () => {
   it ('returns the new array of filtered values', () => {
     expect ( flattenDeep([1, [2, [3, [4]], 5]])).toEqual([1, 2, 3, 4, 5])
   })
