@@ -20,7 +20,7 @@ _List of specifications (specs) for the completed goal. These are declarative se
 - [X] Rewrite 21 methods lodash library 
 - [X] Make the methods as efficient as possible  
 - [X] Use ES2015
-- [X] Write tests for those methods described using Jasmin
+- [X] Write tests for those methods described using Jasmine
 - [X] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
 
 ---
@@ -52,7 +52,7 @@ _List of specifications (specs) for the completed goal. These are declarative se
 
 ---
 
-### Source Code of the Functions
+### Source Code of the Jasmine Spec Test
 
 - [X] [chunk_spec](.spec/chunk_spec.js)
 - [X] [compact_spec](.spec/compact_spec.js)
