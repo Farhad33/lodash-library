@@ -33,7 +33,7 @@ describe('chunk', () => {
     expect ( chunk ({}, [])).toEqual([])
   })  
 
-  it ('returns an empty array if the second argument is an empty array ', () => {
+  it ('returns the new array of chunks when the the first argument is a string ', () => {
     expect ( chunk ('majid', 2)).toEqual([['m', 'a'], ['j', 'i'], ['d']])
   })
 
